@@ -2,7 +2,10 @@
 package tallervectores;
 
 import java.util.Scanner;
-
+/**
+ * 
+ * @author Federico Bornachera
+ */
 public class TallerVectores {
 
     public static void main(String[] args) {
@@ -14,8 +17,6 @@ public class TallerVectores {
         System.out.println("Ingrese la cantidad de estudiantes");
         estudiantes = leer.nextDouble();
         
-        //System.out.println("Ingrese nombre del estudiante");
-        //nombre = leer.nextDouble();
         
         System.out.println("Ingrese nota");
         nota = leer.nextDouble();
