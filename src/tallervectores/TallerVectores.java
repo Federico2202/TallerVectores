@@ -11,8 +11,8 @@ public class TallerVectores {
         
         double estudiantes, listado, promedio, nombre, nota;
         
-        //System.out.println("Ingrese la cantidad de estudiantes");
-        //estudiantes = leer.nextDouble();
+        System.out.println("Ingrese la cantidad de estudiantes");
+        estudiantes = leer.nextDouble();
         
         //System.out.println("Ingrese nombre del estudiante");
         //nombre = leer.nextDouble();
@@ -20,18 +20,14 @@ public class TallerVectores {
         System.out.println("Ingrese nota");
         nota = leer.nextDouble();
         
-        int i;
-
-        while (true) {          //Condición trivial: siempre cierta
-
-            i++;
-
-            System.out.println ("Valor de i: " + i);
-
-            if (i==9) { break;}
-
+        for(int i=1; i==nota; i++){
+            
+            System.out.println(nota);
         }
-        
+      
+        if(nota==10 && nota==10){
+            System.out.println("perdi este curso!!");
+        }
+       
     }
-    
 }
